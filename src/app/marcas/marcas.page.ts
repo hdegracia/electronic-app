@@ -9,7 +9,7 @@ import { ActivatedRoute } from "@angular/router";
   styleUrls: ["./marcas.page.scss"]
 })
 export class MarcasPage implements OnInit {
-  private titulo: string = "Inicio";
+  public titulo: string = "Inicio";
   marcas: Marcas[];
 
   constructor(

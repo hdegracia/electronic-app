@@ -12,7 +12,7 @@ import { sharedStylesheetJitUrl } from '@angular/compiler';
 })
 export class HomePage {
 
-  private titulo:string= "Inicio"
+  public titulo:string= "Inicio"
   marcas: Marcas[];
 
 
